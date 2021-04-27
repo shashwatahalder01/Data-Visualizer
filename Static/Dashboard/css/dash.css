@@ -1,0 +1,56 @@
+body{
+  height: 100%;
+}
+
+
+
+/* .mysidebar{
+  max-width:300px ;
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+  text-align: center;
+  height: 100vh;
+  color:white;
+  background-color: rosybrown;
+}  */
+
+
+
+/********************** dashboard content  *******************************/
+
+
+.content_container{
+  display: flex;
+  /* align-items: stretch; */
+  height: 100%;
+}
+.dashboard_container{
+
+  height: 900px;
+  flex: 1;
+  max-width: 280px;
+  /* background-color: #343a40; */
+  /* background-color: #212529; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #818896;
+  padding: 1%;
+  position: sticky;
+}
+.chart_container{
+  flex: 1;
+  padding: 1%;
+  
+}
+
+.chart {
+  padding: 2%;
+  height: auto;
+  width: 90%;
+  /* background-color: #FAFAFA; */
+  /* #F5F5F5 */
+  /* border-radius: 4px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+  
+  

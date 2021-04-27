@@ -1,0 +1,19 @@
+{% extends "accounts/base.html" %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+<div class='con'>
+  <div class='ac'>
+    <h4 class="text-center mb-5">Sign into your account</h4>
+    <form method="POST" action="">
+      {% csrf_token %}
+      <div class="form-group">
+      {{form| crispy}}
+      <input class="btn btn-dark btn-block" type="submit" value="Login" />
+      </div>
+    </form>
+    <p class="login-card-footer-text">Don't have an account? 
+    <a class="font-weight-bold" href="{% url 'signup' %}" class="text-reset">Register here</a></p>
+  </div>
+</div>
+{% endblock %}
